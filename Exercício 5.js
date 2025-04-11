@@ -11,7 +11,7 @@ function classificarIngresso(idade) {
     }
 }
 function Pessoa() {
-    const idades = [5, 13, 16, 18, 25, 8];
+    const idades = [5, 13, 16, 18, 25, 89];
     idades.forEach(idade => {
         console.log(`Idade: ${idade}, Ingresso: ${classificarIngresso(idade)}`);
     });
